@@ -38,7 +38,7 @@ This is a simple **Product Catalog Web Application** built using **Next.js (App 
 ## ✅ Live Demo
 
 👉 Deployed on **Vercel**:  
-🌐 [https://nextjs-product-catalog-kgal4ua5m-m-haseeb-alis-projects.vercel.app/products](https://nextjs-product-catalog-kgal4ua5m-m-haseeb-alis-projects.vercel.app/products)
+🌐 [https://nextjs-product-catalog-beta.vercel.app/](https://nextjs-product-catalog-beta.vercel.app/)
 
 ---
 
