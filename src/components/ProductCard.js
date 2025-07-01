@@ -5,6 +5,8 @@ import Image from 'next/image';
 export default function ProductCard({ product }) {
   return (
     <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition duration-300 p-4 flex flex-col items-center border border-yellow-200">
+      
+      {/* Product Image */}
       <Image
         src={product.image}
         alt={product.title}
@@ -12,9 +14,21 @@ export default function ProductCard({ product }) {
         height={200}
         className="object-contain mb-4"
       />
-      <h2 className="text-lg font-semibold text-gray-800 mb-2 text-center">{product.title}</h2>
-      <p className="text-yellow-600 font-bold mb-1">${product.price}</p>
-      <p className="text-gray-500 text-sm text-center">{product.category}</p>
+
+      {/* Product Title */}
+      <h2 className="text-lg font-bold text-gray-900 mb-2 text-center">
+        {product.title}
+      </h2>
+
+      {/* Product Price */}
+      <p className="text-yellow-700 text-base font-semibold mb-1">
+        ${product.price}
+      </p>
+
+      {/* Product Category */}
+      <p className="text-gray-700 text-sm capitalize text-center">
+        {product.category}
+      </p>
     </div>
   );
 }
